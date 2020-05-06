@@ -26,7 +26,7 @@ Modifica la gramática corrigiendo los errores que veas, de manera que genere fr
               
 <declaration> ::= 'var' WORD ('=' <expr>)?
 
-<expr> ::= <term> (('==', '!=', '>', '>=', '<', '<=', '=') <term>)*
+<expr> ::= <term> (('==', '!=', '>', '>=', '<', '<=') <term>)*
 
 <term> ::= <sum> (('+', '-') <sum>)*
 
